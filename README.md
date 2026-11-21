@@ -2,6 +2,8 @@
 
 # mttr-mtbf-calculator
 
+[![CI](https://github.com/yassine2med/mttr-mtbf-calculator/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/mttr-mtbf-calculator/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 MTTR and MTBF are quoted everywhere in maintenance and almost never calculated the same way twice. Is downtime counted once when two work orders overlap? What happens to a failure that is still open? This repo is a small library and command line tool with one clear set of rules and tests that pin them down.
 
 ![Screenshot](docs/screenshot.png)
