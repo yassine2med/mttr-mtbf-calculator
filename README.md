@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="mttr-mtbf-calculator" width="100%"></p>
+
 # mttr-mtbf-calculator
 
 MTTR and MTBF are quoted everywhere in maintenance and almost never calculated the same way twice. Is downtime counted once when two work orders overlap? What happens to a failure that is still open? This repo is a small library and command line tool with one clear set of rules and tests that pin them down.
